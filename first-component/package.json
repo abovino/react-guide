@@ -1,0 +1,11 @@
+{
+  "name": "first-component",
+  "version": "1.0.0",
+  "description": "Hello, World in React.js",
+  "main": "hello-world-react.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
