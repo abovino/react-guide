@@ -4,6 +4,8 @@ var ReactDOM = require('react-dom');
 
 //createClass HelloUser
 var HelloUser = React.createClass({
+  //getInitialState returns an object which contains the state/data for component
+  //This function keeps track of username
   getInitialState: function() {
     return {
         username: "@bov188"
