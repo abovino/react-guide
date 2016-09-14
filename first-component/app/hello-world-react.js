@@ -4,6 +4,7 @@ var ReactDOM = require('react-dom');
 
 //Creates class HelloWorld which renders the HTML
 //HTML must be wrapped in a container div
+//createClass = creates a new component
 var HelloWorld = React.createClass({
   render: function() {
     return (
