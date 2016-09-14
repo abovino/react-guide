@@ -54,10 +54,17 @@
 	var HelloUser = React.createClass({
 	  displayName: 'HelloUser',
 
+	  //getInitialState returns an object which contains the state/data for component
+	  //This function keeps track of username
 	  getInitialState: function getInitialState() {
 	    return {
 	      username: "@bov188"
 	    };
+	  },
+	  handleChange: function handleChange(e) {
+	    this.setState({
+	      username: e.target.value
+	    });
 	  },
 	  render: function render() {
 	    return React.createElement(
@@ -68,7 +75,11 @@
 	        null,
 	        'Hello ',
 	        this.state.username
-	      )
+	      ),
+	      ' ',
+	      React.createElement('br', null),
+	      'Change Name: ',
+	      React.createElement('input', { type: 'text', value: this.state.username, onChange: this.handleChange })
 	    );
 	  }
 	});
