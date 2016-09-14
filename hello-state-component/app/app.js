@@ -20,5 +20,5 @@ var HelloUser = React.createClass({
 
 ReactDOM.render(
   <HelloUser />,
-  React.getElementById('app');
+  document.getElementById('app');
 );
