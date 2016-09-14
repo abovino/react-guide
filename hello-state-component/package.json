@@ -1,0 +1,15 @@
+{
+  "name": "hello-state-component",
+  "version": "1.0.0",
+  "description": "hello {this.state.username} example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
+}
